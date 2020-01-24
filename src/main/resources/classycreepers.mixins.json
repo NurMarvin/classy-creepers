@@ -2,10 +2,8 @@
   "required": true,
   "package": "de.nurmarvin.classycreepers.mixin",
   "compatibilityLevel": "JAVA_8",
-  "mixins": [
-  ],
   "client": [
-    "CreeperEntityModelMixin"
+    "CreeperEntityRendererMixin"
   ],
   "injectors": {
     "defaultRequire": 1
