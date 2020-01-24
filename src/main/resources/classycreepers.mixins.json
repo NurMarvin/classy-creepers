@@ -1,11 +1,11 @@
 {
   "required": true,
-  "package": "net.fabricmc.example.mixin",
+  "package": "de.nurmarvin.classycreepers.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
   ],
   "client": [
-    "ExampleMixin"
+    "CreeperEntityModelMixin"
   ],
   "injectors": {
     "defaultRequire": 1

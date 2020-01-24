@@ -1,35 +1,31 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "classycreepers",
   "version": "${version}",
-
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Classy Creepers",
+  "description": "A mod that makes every creeper much more classy",
   "authors": [
-    "Me!"
+    "NurMarvin"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/NurMarvin/classy-creepers/"
   },
-
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
-
+  "icon": "assets/classycreepers/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "de.nurmarvin.classycreepers.ClassyCreepers"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "classycreepers.mixins.json"
   ],
-
   "depends": {
     "fabricloader": ">=0.7.2",
     "fabric": "*",
-    "minecraft": "1.15.x"
+    "minecraft": "1.14.x"
   },
   "suggests": {
     "flamingo": "*"
