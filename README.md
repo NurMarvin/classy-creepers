@@ -1,16 +1,11 @@
-# Fabric Example Mod
+# Classy Creepers Mod
 
-## Setup
-
-1. Edit build.gradle and mod.json to suit your needs.
-    * The "mixins" object can be removed from mod.json if you do not need to use mixins.
-    * Please replace all occurences of "modid" with your own mod ID - sometimes, a different string may also suffice.
-2. Run the following command:
-
-```
-./gradlew idea
-```
+A mod that makes every creeper much more classy.
 
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Feel free to do anything with the code found in this repository. You don't need to credit me if you use any of my code, 
+but it would be appreciated if you did.
+
+The original Forge Mod and Runtime Injection Version by Pascal, Marco_MC, Poke and Senk Ju can be found here: 
+https://senkju.net/classycreepers/
