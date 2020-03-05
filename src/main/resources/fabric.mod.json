@@ -8,8 +8,9 @@
     "NurMarvin"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/NurMarvin/classy-creepers/"
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/classy-creepers",
+    "sources": "https://github.com/NurMarvin/classy-creepers/",
+    "issues": "https://github.com/NurMarvin/classy-creepers/issues"
   },
   "license": "CC0-1.0",
   "icon": "assets/classycreepers/icon.png",
@@ -26,7 +27,7 @@
     "fabricloader": ">=0.7.2",
     "minecraft": "1.14.x"
   },
-  "suggests": {
-    "flamingo": "*"
+  "custom": {
+    "modmenu:clientsideOnly": true
   }
 }
