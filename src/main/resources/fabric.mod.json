@@ -26,7 +26,7 @@
   "depends": {
     "fabricloader": ">=0.7.2",
     "fabric-language-kotlin": "*",
-    "minecraft": "1.15.x"
+    "minecraft": ">=1.15-"
   },
   "custom": {
     "modmenu:clientsideOnly": true
