@@ -33,7 +33,6 @@ public class CreeperEntityModelMixin<T extends Entity> extends EntityModel<T> {
    @Inject(method = "<init>(F)V", at = @At("RETURN"))
    private void init(final float p_i46366_1_, final CallbackInfo callbackInfo) {
       this.topHat = new Identifier("classycreepers", "tophat.png");
-      final int i = 6;
       (this.brim1 = new Cuboid(this, 9, 0)).addBox(4.0f, -8.0f, -4.0f, 1, 1, 8, 0.0f);
       this.brim1.setRotationPoint(0.0f, 6.0f, 0.0f);
       (this.brim2 = new Cuboid(this, 9, 0)).addBox(-5.0f, -8.0f, -4.0f, 1, 1, 8, 0.0f);
